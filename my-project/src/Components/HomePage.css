@@ -1,0 +1,41 @@
+.div_uncle{
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: rgb(231, 226, 226);
+}
+
+.div_uncle > img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 38px;
+}
+.div_uncle > p{
+    font-size: 20px;
+    margin-left: -1000px;
+    margin-top: 20px;
+}
+
+.div_desease{
+    border: 1px solid rgb(223, 219, 219);
+    margin-top: 20px;
+    padding-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.div_desease img {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.grid_first{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 15px;
+    margin-top: -25px;
+}
+.grid_first:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
