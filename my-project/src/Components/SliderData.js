@@ -21,6 +21,15 @@ export const SliderData = [
 
   {
     image : 'https://onemg.gumlet.io/7813da63-d0a5-4461-a897-274de753f95e_1663825942.png?w=899&h=200&format=auto',
+  },
+  {
+    image : 'https://onemg.gumlet.io/2ccf07c4-5708-4732-84a0-54fe642f2442_1667466063.jpg?w=899&h=200&format=auto',
+  },
+  {
+    image : 'https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/8e66b76c-9fd0-4215-88c4-61f1800e3847.png',
+  },
+  {
+    image : 'https://onemg.gumlet.io/409bc9dd-ee9a-40bf-ad53-75627d19db31_1660826530.jpg?w=899&h=200&format=auto'
   }
 
 ]

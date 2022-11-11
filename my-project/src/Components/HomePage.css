@@ -19,7 +19,7 @@
 
 .div_desease{
     border: 1px solid rgb(223, 219, 219);
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 25px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -38,4 +38,77 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 15px;
     cursor: pointer;
+}
+
+.btn{
+    background-color: tomato;
+    margin-right: 30px;
+}
+.featured{
+    font-size: 20px;
+}
+.flex1{
+    background-color: rgba(240, 233, 233, 0.968);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.leb{
+    color: green;
+}
+.forsmall{
+    font-size: 12px;
+    color: gray;
+}
+/* .grid_first > p:nth-child(1){
+    font-size: 10px;
+} */
+.head{
+    font-size: 14px;
+}
+.glucometer{
+    display: block;
+    font-size: 800px;
+   /* // width: 800px; */
+   height: 100px;
+}
+.sugerfree{
+    height: 150px;
+}
+.monokfruit{
+    height : 150px;
+}
+
+.green{
+    height: 160px;
+}
+.tulsi{
+    height: 180px;
+}
+.add{
+    margin-left: 10px;
+    font-size: 14px;
+    background-color: gainsboro;
+}
+.star{
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+.starbtn{
+    font-size: 15px;
+    margin-left: 16px;
+    width: 43px;
+    /* border: 1px solid red; */
+    background-color: rgb(10, 171, 10);
+    color: rgb(239, 226, 226);
+}
+.spray{
+    height: 250px;
+}
+.starbox{
+    margin-top: 5px;
+}
+.amla{
+    height: 190px;
 }

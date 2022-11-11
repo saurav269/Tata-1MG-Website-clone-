@@ -5,6 +5,7 @@ import { ImageSlider } from './Components/ImageSlider';
 import { SliderData } from './Components/SliderData';
 import { Heading } from '@chakra-ui/react';
 import { HomePage } from './Components/HomePage';
+import { Footer } from './Components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       Tata 1mg: India's Leading Online Pharmacy & Healthcare Platform
       </Heading>
       <HomePage />
+      <Footer />
      </div>
      
     </div>
