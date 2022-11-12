@@ -6,6 +6,54 @@
     margin-left: 180px;
     margin-top: 30px;
 }
-
-
-
+.divide {
+   padding: 10px;
+    border-bottom: 2px solid grey;
+}
+.btnn{
+    background-color: tomato;
+    color: white;
+    height: 40px;
+    width : 100px;
+    border-radius: 7px;
+}
+.stack1{
+    margin: auto;
+    /* border: 1px solid green; */
+    gap: 50px;
+    margin-top: 20px;
+}
+.hh{
+    font-size: 17px;
+}
+.fStack p{
+    font-size: 12px;
+}
+.sign{
+    background-color: tomato;
+    width: 42%;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+}
+.sign:hover{
+background-color: red;
+cursor: pointer;
+}
+.fBorder{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: rgb(251, 249, 247);
+}
+.logo > img{
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 100px;
+}
+.logo{
+    margin-top: 40px;
+    
+}
+.mainBox{
+    background-color: rgb(251, 249, 247);
+}
