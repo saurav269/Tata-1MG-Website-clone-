@@ -1,0 +1,114 @@
+.div_uncle{
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: rgb(231, 226, 226);
+}
+
+.div_uncle > img{
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 38px;
+}
+.div_uncle > p{
+    font-size: 20px;
+    margin-left: -1000px;
+    margin-top: 20px;
+}
+
+.div_desease{
+    border: 1px solid rgb(223, 219, 219);
+    margin-top: 10px;
+    padding-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.div_desease img {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+.grid_first{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 15px;
+    margin-top: -25px;
+}
+.grid_first:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: tomato;
+    margin-right: 30px;
+}
+.featured{
+    font-size: 20px;
+}
+.flex1{
+    background-color: rgba(240, 233, 233, 0.968);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.leb{
+    color: green;
+}
+.forsmall{
+    font-size: 12px;
+    color: gray;
+}
+/* .grid_first > p:nth-child(1){
+    font-size: 10px;
+} */
+.head{
+    font-size: 14px;
+}
+.glucometer{
+    display: block;
+    font-size: 800px;
+   /* // width: 800px; */
+   height: 100px;
+}
+.sugerfree{
+    height: 150px;
+}
+.monokfruit{
+    height : 150px;
+}
+
+.green{
+    height: 160px;
+}
+.tulsi{
+    height: 180px;
+}
+.add{
+    margin-left: 10px;
+    font-size: 14px;
+    background-color: gainsboro;
+}
+.star{
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+.starbtn{
+    font-size: 15px;
+    margin-left: 16px;
+    width: 43px;
+    /* border: 1px solid red; */
+    background-color: rgb(10, 171, 10);
+    color: rgb(239, 226, 226);
+}
+.spray{
+    height: 250px;
+}
+.starbox{
+    margin-top: 5px;
+}
+.amla{
+    height: 190px;
+}
