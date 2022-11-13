@@ -3,9 +3,11 @@ import './App.css';
 import { Navbar } from './Components/Navbar';
 import { ImageSlider } from './Components/ImageSlider';
 import { SliderData } from './Components/SliderData';
-import { Heading } from '@chakra-ui/react';
+import { Heading, Modal } from '@chakra-ui/react';
 import { HomePage } from './Components/HomePage';
 import { Footer } from './Components/Footer';
+
+
 
 function App() {
   return (

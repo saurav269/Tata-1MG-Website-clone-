@@ -152,10 +152,10 @@ export const Footer = () => {
                             <h3 className='dapp'><b>Download App</b></h3>
                             <br>
                             </br>
-                            <Box>
+                            <Box onClick={() => window.location.href='https://play.google.com/store/apps/details?id=com.aranoah.healthkart.plus&pli=1'}>
                                 <img src='https://media.monsterindia.com/trex/public/default/images/android-footer.png' alt='' />
                             </Box>
-                            <Box>
+                            <Box onClick={() => window.location.href='https://apps.apple.com/in/app/1mg/id554578419'}>
                                 <img src='https://media.monsterindia.com/trex/public/default/images/ios-footer.png' alt='' />
                             </Box>
                         </Stack>     
