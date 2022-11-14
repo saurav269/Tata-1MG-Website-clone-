@@ -8,18 +8,38 @@ import {
     InputGroup,
     InputRightAddon,
     Button,
-    
+    useDisclosure,
 } from '@chakra-ui/react'
 
 import {ArrowDownIcon, SearchIcon} from '@chakra-ui/icons'
+
+import { ModalPage } from './ModalPage'
+import { useState } from 'react'
+
 export const Navbar=()=>{
+
+
+const [mail,setMail] = useState("")
+const [password, setPassword] = useState("")
+
+const alerting = () => {
+    if(mail.length > 7 && password.length > 7){
+        alert('Congratulation Login SuccessFull')
+        onClose()
+    }else{
+        alert("Please Enter Valid Email or Password")
+    }
+}
+
+
+    const { isOpen, onOpen, onClose } = useDisclosure()
     return (
         <Box> 
-            <Stack borderBottom='1px solid grey' height='110px'>
+            <Stack borderBottom='1px solid grey' height='50px'>
         <Flex className='navFlex' gap='25px' fontSize='18px' font-style='bold' display='flex'
            alignItems='center'>
             <Box width='8%'>
-                <img src='https://scontent.fccu9-2.fna.fbcdn.net/v/t39.30808-6/314401737_1801982186830147_8637105093664179843_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=IpcbtncuAswAX9r9wNj&_nc_ht=scontent.fccu9-2.fna&oh=00_AfDHyMT9jAQd6CCG8xo98iRZEc7Q8FNPFz1QlRAVbRMZlQ&oe=6370F3DB' alt='' />
+                <img src='https://www.1mg.com/images/tata_1mg_logo.svg' alt='' />
             </Box>
             <Box hover='red'>
                 <h1>MEDICINES</h1>
@@ -40,8 +60,18 @@ export const Navbar=()=>{
                 <h1>CARE PLAN</h1>
             </Box>
             <Box marginLeft='50px' fontSize='15px'>
-                <button>Login | Sign Up</button>
+                <button onClick={onOpen}>Login | Sign Up</button>
             </Box>
+            <ModalPage  
+            isOpen={isOpen}
+             onClose={onClose} 
+             onOpen={onOpen} 
+             alerting={alerting} 
+             mail={mail} 
+             setMail={setMail} 
+             password={password} 
+             setPassword={setPassword}  />
+
             <Box fontSize='15px'>
                 <h1>Offers</h1>
             </Box>
@@ -103,7 +133,7 @@ export const Navbar=()=>{
                 <h2>QUICK BUY! Get 25% off on medicines*</h2>
             </Box> 
             <Box>
-                <Button colorScheme='red' variant='solid'>Quick Order</Button>
+                <Button colorScheme='red' variant='solid' onClick={() => window.location.href='https://www.1mg.com/order-with-prescription/'}>Quick Order</Button>
              </Box>
             </Flex>
         </Stack>
@@ -112,3 +142,5 @@ export const Navbar=()=>{
        
     )
 }
+
+//https://scontent.fccu9-2.fna.fbcdn.net/v/t39.30808-6/314401737_1801982186830147_8637105093664179843_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=IpcbtncuAswAX9r9wNj&_nc_ht=scontent.fccu9-2.fna&oh=00_AfDHyMT9jAQd6CCG8xo98iRZEc7Q8FNPFz1QlRAVbRMZlQ&oe=6370F3DB
